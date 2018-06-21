@@ -1,0 +1,94 @@
+
+@media screen and (min-width: 360px) {
+    img.logo-img {
+        width: 120px;
+        height: 120px;
+    }
+    .col{
+        padding-left: 0;
+    }
+    div.card{
+        margin: 1.25em;
+
+    }
+    div.col-sm-6 {
+        max-width: 100%;
+    }
+    p#about-para {
+        font-size: 15px;
+        padding: 8px;
+    }
+    h2#dark-heading {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        padding-bottom: 2em;
+        text-align: center;
+
+    }
+    h2#knack-heading {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        padding-bottom: 2em;
+        text-align: center;
+
+    }
+    div#left-content {
+        padding: 0;
+        text-align: justify;
+        max-width: 100%;
+    }
+    div#right-content {
+        padding: 0;
+        text-align: justify;
+        max-width: 100%;
+    }
+    footer.footsie p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:760px){
+
+    .col{
+        padding-left: 0;
+    }
+    div.container {
+        max-width: 760px;
+    }
+    p#about-para {
+        font-size: 15px;
+        padding: 8px;
+    }
+    h2#dark-heading {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        padding-bottom: 2em;
+        text-align: center;
+
+    }
+    h2#knack-heading {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        padding-bottom: 2em;
+        text-align: center;
+
+    }
+
+    footer.footsie p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+        img.logo-img {
+        width: 200px;
+        height: 200px;
+    }
+    div.container{
+        max-width: 1220px;
+    }
+}

@@ -1,0 +1,127 @@
+body {
+    background: url(../img/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.logo-img{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+div#section-one{
+    margin-top: 2em;
+    background-color: #f67d5b;
+}
+div#right-content {
+    text-align: right;
+    margin-top: 5em;
+    color: #fff;
+    font-family: 'Roboto slab', sans-serif;
+    
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromRight;
+    padding: 30px;
+}
+
+div#left-content {
+    text-align: left;
+/*    background-color: khaki;*/
+    margin-top: 5em;
+    color: #fff;
+
+    font-family: 'Roboto slab', sans-serif;
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    padding: 30px;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+p#about-para{
+    padding: 2px;
+    font-size: 20px;
+}
+h2#dark-heading{
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 34px;
+    padding-bottom: 2em;
+
+}
+h2#knack-heading{
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 34px;
+    text-align: left;
+    padding-bottom: 2em;
+}
+
+.knacks{
+    list-style: none;
+    text-align: center;
+}
+
+
+div.section-two{
+    margin-top: 8em;
+    margin-bottom: 5em;
+}
+div.section-two h1{
+    font-weight:600;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 2em;
+    color: #fff;
+}
+div.full-width{
+    margin-top: 2em;
+}
+img.card-img-top{
+    border-bottom: 1px dashed #ad6353;
+}
+div.card-body{
+    background-color:#f9edd6;
+    color: tomato;
+}
+div.card-body a{
+    color: #ad6353;
+}
+div.card-body a:hover{
+    color: cornflowerblue; 
+}
+
+footer.footsie{
+    background-color: salmon;
+    height: 100px;
+}
+.footsie p {
+    margin: 0;
+    padding-top: 2em;
+    text-align: center;
+    color: floralwhite;
+    font-size: 20px;
+}
